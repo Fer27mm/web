@@ -1,0 +1,263 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+    text-decoration: none;
+    list-style: none;
+
+}
+body{
+    
+    font-family: 'Poppins', sans-serif;
+    background-color: teal;
+}
+
+
+header {
+    background-image: url(images/13.png);
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 110vh;
+    display: flex;
+    align-items: center;
+    
+
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+.menu{
+    position: absolute;
+    top: 40px;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 300000;
+}
+.menu .logo {
+    font-weight: 800;
+    font-size: 50px;
+    color: black;
+}
+
+.menu .navbar ul li {
+    position: relative;
+    float:right;
+}
+.menu .navbar ul li a {
+    font-size: 25px;
+    padding: 30px;
+    color:black;
+    display:flex;
+}
+.menu .navbar ul li a:hover {
+    color:snow;
+}
+#menu{
+    display: none;
+}
+.menu-icono{
+    width: 100px;
+}
+.menu label {
+     cursor: pointer;
+     display: none;
+}
+
+.header-content{
+    display: flex;
+}
+.content{
+    position: absolute;
+    padding: 500px 500px 500px 0px;
+}
+.content h1{
+    color: black;
+    font-size: 55px;
+    text-transform: uppercase;
+    font-weight: 500;
+    line-height: 55px;
+}
+.content p{
+    margin-top: 30px;
+    color: black;
+    text-transform: uppercase;
+    font-size: 40px;
+    line-height: 45px;
+}
+.btn-1{
+    display: inline-block;
+    background-color: rgb(170, 177, 255,0,3);
+    border: 1px solid ;
+    margin: 55px 10px 0px 0 px;
+    padding: 15px 25px;
+    color: beige;
+    border-radius: 25px;
+}
+.btn-1:hover{
+    background-color: cornflowerblue;
+}
+
+.btn-4{
+    display: inline-block;
+    background-color: rgb(170, 177, 255,0,3);
+    border: 1px solid ;
+    margin: 55px 10px 0px 0 px;
+    padding: 15px 25px;
+    color: beige;
+    border-radius: 25px;
+}
+.btn-4:hover{
+    background-color: cornflowerblue;
+}
+hr{
+    margin: 50px 0px ;
+}
+.services{
+    padding: 10px 0px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.services{
+    
+    padding: 100px;
+    margin: 100px 15px;
+    box-shadow: 100px 100px 20px rgba(135, 141, 214,0,3);
+}
+.services img{
+    margin-top: 50px;
+}
+.services h3{
+    font-size: 60px;
+    color:rgb(0, 0, 0);
+    margin-bottom: 40px;
+}
+
+.services p{
+    padding: 100px 300px;
+    color: black;
+    font-size: 100px;
+    margin-top: 100px;
+    font-size: 30px;
+    line-height: 100px;
+}
+.tipos{
+    padding: 100px 0px;
+    text-align: center;
+    color: black;
+}
+.tipos h2{
+    font-size: 70px;
+    color:rgb(0, 0, 0);
+    margin-bottom: 15px;
+}
+.tipos{
+    display: flex;
+    align-items: center;
+}
+.tipos img{
+    width: 350px;
+}
+.tipos-1{
+    text-align: left;
+    margin-left: 100px;
+}
+.tipos-1 h3{
+font-size: 50px;
+margin-bottom: 25px;
+}
+.tipos-1 p{
+    color: black;
+    font-size: 25px;
+    margin-top: 30px;
+    font-size: 40px;
+    line-height: 45px;
+}
+.tipos-2{
+    text-align: left;
+    margin-left: 100px;
+}
+.tipos-2 h3{
+    font-size: 50px;
+    margin-bottom: 25px;
+}
+.tipos-2 p{ 
+    color: black;
+    font-size: 25px;
+    margin-top: 30px;
+    font-size: 40px;
+    line-height: 45px;
+}
+
+.btn-2 {
+    display: inline-block;
+    padding: 15px 15px;
+    border-radius: 30px;
+    background-color: black;
+    color: blueviolet;
+}
+.btn-2:hover{
+    background-color: blueviolet;
+}
+
+footer{
+    padding: 100px 9px 60px 9px;
+    background-image: url(images/...);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.info-content{
+    display: flex;
+}
+
+.btn-3{
+    display: inline-block;
+    padding: 15px 15px;
+    border-radius: 30px;
+    background-color: black;
+    color: blueviolet;
+}
+.btn-3:hover{
+    background-color: blueviolet;
+}
+hr{
+    margin: 50px 0px ;
+}
+
+.enlaces{
+    display: flex;
+    justify-content: space-between;
+    color: black;
+}
+.enlaces h3{
+    font-size: 60px;
+    margin-bottom: 30px;
+}
+.enlace{
+    display: flex;
+}
+.enlace .navbar  li {
+    position: relative;
+    float: left;
+}
+.enlace li a{
+    display: block;
+    margin: 50px;
+    color: black;
+}
+.enlace li a:hover {
+    color: steelblue;
+}
